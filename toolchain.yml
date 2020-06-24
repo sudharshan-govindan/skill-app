@@ -1,0 +1,10 @@
+# Github repos
+ services:
+  sample-repo:
+    service_id: githubprivate
+    parameters:
+      repo_name: '{{toolchain.name}}'
+      repo_url: 'https://github.ibm.com/riyamaro/quiz-app.git'
+      type: clone
+      has_issues: true
+      enable_traceability: true
