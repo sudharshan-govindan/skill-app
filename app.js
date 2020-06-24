@@ -17,7 +17,8 @@ app.get('/',function(req,res){
 });
 
 var Cloudant = require('@cloudant/cloudant');
-var cloudant = Cloudant({url: "https://66fe83f7-f925-45ed-b758-5d0a75f7cbee-bluemix:0d5dffb251e4115ea1e9da9476c37df07e4fb2e6b79e222a960dd4fad0675ac7@66fe83f7-f925-45ed-b758-5d0a75f7cbee-bluemix.cloudantnosqldb.appdomain.cloud"});
+//var cloudant = Cloudant({url: "https://66fe83f7-f925-45ed-b758-5d0a75f7cbee-bluemix:0d5dffb251e4115ea1e9da9476c37df07e4fb2e6b79e222a960dd4fad0675ac7@66fe83f7-f925-45ed-b758-5d0a75f7cbee-bluemix.cloudantnosqldb.appdomain.cloud"});
+var cloudant = Cloudant({url: "https://4e88e9ed-d70d-4845-90b6-43fe5389a05c-bluemix:5FHiB1qeeCgVONQpWxWRVbymiJa7MQbyx9EzSB3ynmke@4e88e9ed-d70d-4845-90b6-43fe5389a05c-bluemix.cloudantnosqldb.appdomain.cloud"});
 var dbname = 'mydb';
 
 
