@@ -14,72 +14,123 @@
 
     <div class="container">
         <div class="py-5 text-center">
-        <h2>IBM Workshop Activation!</h2>
-        <p class="lead">Answer these simple questions to get ready for workshop!</p>
+        <h2>Cloud Computing Quiz</h2>
+        <p class="lead">Answer these multiple choice questions to earn goodies!</p>
         </div>
         <form method="POST" action="/quizsubmission">
         <p class="lead"></p>
-
-        Enter your Email ID:<br/>
+        
+        Enter your Email ID:<br/>    
         <input type="text" id="cloudemail" name="cloudemail" class="form-control" placeholder="Please enter your IBM Cloud Email ID" required>
-        <br/>
-        1. What is your area of Interest?<br/>
+        <br/>   
+        1. You need an SSH server to get a bash shell inside a container.<br/>
         <div class="radio">
         <label>
-        <input type="radio" name="quiz_1" id="quiz_1" value="Artificial Intelligence" required> Artificial Intelligence
+        <input type="radio" name="quiz_1" id="quiz_1" value="a" required> True
         </label>
         </div>
         <div class="radio">
         <label>
-        <input type="radio" name="quiz_1" id="quiz_1" value="Data Science"> Data Science
+        <input type="radio" name="quiz_1" id="quiz_1" value="b">False
+        </label>
+        </div>
+        <br/> 
+        2. Open-source container orchestration platforms, such as Docker Swarm and Kubernetes, provide what to their users?<br/>
+        <div class="radio">
+        <label>
+        <input type="radio" name="quiz_2" id="quiz_2" value="a" required> A way to orchestrate different flavors of the same application in a way that maximizes reuse.
         </label>
         </div>
         <div class="radio">
         <label>
-        <input type="radio" name="quiz_1" id="quiz_1" value="Analytics"> Analytics
+        <input type="radio" name="quiz_2" id="quiz_2" value="b">A fully hosted solution that is production-ready for deploying enterprise grade applications.
         </label>
         </div>
         <div class="radio">
         <label>
-        <input type="radio" name="quiz_1" id="quiz_1" value="Blockchain"> Blockchain
-        </label>
-        </div>
-        <br/>
-        2. Provide your experience level for above skill?<br/>
-        <div class="radio">
-        <label>
-        <input type="radio" name="quiz_2" id="quiz_2" value="Beginner" required> Beginner
+        <input type="radio" name="quiz_2" id="quiz_2" value="c">An easy-to-use GUI for operators to click and deploy applications.
         </label>
         </div>
         <div class="radio">
         <label>
-        <input type="radio" name="quiz_2" id="quiz_2" value="Intermediate"> Intermediate
-        </label>
-        </div>
-        <div class="radio">
-        <label>
-        <input type="radio" name="quiz_2" id="quiz_2" value="Advanced"> Advanced
-        </label>
-        </div>
-        <div class="radio">
-        <label>
-        <input type="radio" name="quiz_2" id="quiz_2" value="Expert"> Expert
+        <input type="radio" name="quiz_2" id="quiz_2" value="d">A platform to help solve problems of running distributed containerized applications in production, such as high availability, scaling, fault tolerance, and scheduling.
         </label>
         </div>
         <br/>
-        3. Do you have a github account?<br/>
+        3. Which IBM Cloud compute option provides a serverless environment where you provide code snippets that run as a result of events?<br/>
         <div class="radio">
         <label>
-        <input type="radio" name="quiz_3" id="quiz_3" value="Yes" required> Yes
+        <input type="radio" name="quiz_3" id="quiz_3" value="a" required> Cloud Foundry
         </label>
         </div>
         <div class="radio">
         <label>
-        <input type="radio" name="quiz_3" id="quiz_3" value="No"> No
+        <input type="radio" name="quiz_3" id="quiz_3" value="b"> Bare Metal Servers
+        </label>
+        </div>
+        <div class="radio">
+        <label>
+        <input type="radio" name="quiz_3" id="quiz_3" value="c"> OpenWhisk
+        </label>
+        </div>
+        <div class="radio">
+        <label>
+        <input type="radio" name="quiz_3" id="quiz_3" value="d"> Containers
         </label>
         </div>
         <br/>
-        <input type="submit" value="Submit" class="btn btn-primary btn-lg"/>
+        4. Which Kubernetes object manages external access to the services in a cluster, typically via HTTP?<br/>
+        <div class="radio">
+        <label>
+        <input type="radio" name="quiz_4" id="quiz_4" value="a" required> Deployment
+        </label>
+        </div>
+        <div class="radio">
+        <label>
+        <input type="radio" name="quiz_4" id="quiz_4" value="b"> ReplicaSet
+        </label>
+        </div>
+        <div class="radio">
+        <label>
+        <input type="radio" name="quiz_4" id="quiz_4" value="c"> Ingress
+        </label>
+        </div>
+        <div class="radio">
+        <label>
+        <input type="radio" name="quiz_4" id="quiz_4" value="d"> Volume
+        </label>
+        </div>
+        <br/>  
+        5. Your application exposed one service, accessible from outside of the cluster. Which port type did it use?<br/>
+        <div class="radio">
+        <label>
+        <input type="radio" name="quiz_5" id="quiz_5" value="a" required> ClusterIP
+        </label>
+        </div>
+        <div class="radio">
+        <label>
+        <input type="radio" name="quiz_5" id="quiz_5" value="b"> NodePort
+        </label>
+        </div>
+        <div class="radio">
+        <label>
+        <input type="radio" name="quiz_5" id="quiz_5" value="c"> LoadBalancer
+        </label>
+        </div> 
+        <div class="radio">
+        <label>
+        <input type="radio" name="quiz_5" id="quiz_5" value="d"> ExternalName
+        </label>
+        </div> 
+        <br/>
+        <br/>
+            <div class="checkbox">
+            <label>
+      		<input type="checkbox" name="interested" value="Yes" checked>&nbsp;IBM may use my contact data to keep me informed of products, services and offerings.
+   			</label>
+ 			</div>
+        <br/>
+        <input type="submit" value="Submit Quiz" class="btn btn-primary btn-lg"/>
         </form>
       <br/><br/>
       <footer class="my-5 pt-5 text-muted text-center text-small">
