@@ -1,6 +1,6 @@
 # Deploy simple application and submit the Questionnaire
 
-[Deploy to IBM Cloud](https://cloud.ibm.com/devops/setup/deploy?repository=https://github.com/ragdeshp/skill-app.git)
+[Deploy to IBM Cloud](https://cloud.ibm.com/devops/setup/deploy?repository=https://github.com/sudharshan-govindan/skill-app.git)
 
 1. Press the above `Deploy to IBM Cloud` button and then...
 
