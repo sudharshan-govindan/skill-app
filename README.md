@@ -1,6 +1,6 @@
 # Deploy simple Quiz application and take the quiz
 
-[Deploy to IBM Cloud](https://cloud.ibm.com/devops/setup/deploy?repository=https://github.com/RiyaMRoy04/simple-quiz-app.git)
+[Deploy to IBM Cloud](https://cloud.ibm.com/devops/setup/deploy?repository=https://github.com/sudharshan-govindan/skill-app.git)
 
 1. Press the above `Deploy to IBM Cloud` button and then...
 
@@ -8,14 +8,14 @@
    * Select your region, organization, and space (or use the defaults).
    * Click `Deploy`.
 
-2. In Toolchains, click on `Delivery Pipeline` to watch while the app is deployed. 
+2. In Toolchains, click on `Delivery Pipeline` to watch while the app is deployed.
 
    ![toolchain-pipeline](doc/images/tool.png)
-   
+
 3. Click on `View Console` in the Deploy stage
-   
+
    ![toolchain-pipeline](doc/images/1.png)
-   
+
 4. Once deployed, the app can be viewed by clicking `Visit App URL`
 
    ![toolchain-pipeline](doc/images/2.png)
