@@ -18,7 +18,7 @@ app.get('/',function(req,res){
 
 var Cloudant = require('@cloudant/cloudant');
 //var cloudant = Cloudant({url: "https://66fe83f7-f925-45ed-b758-5d0a75f7cbee-bluemix:0d5dffb251e4115ea1e9da9476c37df07e4fb2e6b79e222a960dd4fad0675ac7@66fe83f7-f925-45ed-b758-5d0a75f7cbee-bluemix.cloudantnosqldb.appdomain.cloud"});
-var cloudant = Cloudant({url: "https://4e88e9ed-d70d-4845-90b6-43fe5389a05c-bluemix:5FHiB1qeeCgVONQpWxWRVbymiJa7MQbyx9EzSB3ynmke@4e88e9ed-d70d-4845-90b6-43fe5389a05c-bluemix.cloudantnosqldb.appdomain.cloud"});
+var cloudant = Cloudant({url: "https://fcec4451-f26d-4ee1-aada-480743f01158-bluemix:d7222383947d82f7abf6bd69438f1bccb8d3ce76b23233b64777d98c077685f7@fcec4451-f26d-4ee1-aada-480743f01158-bluemix.cloudantnosqldb.appdomain.cloud"});
 var dbname = 'mydb';
 
 
