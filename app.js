@@ -1,5 +1,5 @@
 require('dotenv').config();
-var Cloudant = require('@cloudant/cloudant');
+var Cloudant = require('cloudant');
 var express = require('express');
 var bodyParser = require('body-parser');
 var stringSimilarity = require('string-similarity');
