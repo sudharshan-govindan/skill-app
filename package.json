@@ -6,6 +6,7 @@
     "start": "node ./bin/www"
   },
   "dependencies": {
+    "@cloudant/cloudant": "^4.2.1",
     "cloudant": "^1.10.0-NOTICE",
     "cookie-parser": "~1.4.3",
     "debug": "~2.6.9",
@@ -13,7 +14,7 @@
     "ejs": "~2.5.7",
     "express": "~4.16.0",
     "http-errors": "~1.6.2",
-    "string-similarity": "^3.0.0",
-    "secure-env": "*"
+    "secure-env": "*",
+    "string-similarity": "^3.0.0"
   }
 }
